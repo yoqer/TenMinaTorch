@@ -44,8 +44,8 @@ pip install TenMINATorch[all]
 
 ### Instalación desde código fuente
 ```bash
-git clone https://github.com/minitorch/minitorch-lite.git
-cd minitorch-lite
+git clone https://github.com/TenMinaTorch/TenMINATorch.git
+cd TenMINATorch
 pip install -e .
 ```
 
