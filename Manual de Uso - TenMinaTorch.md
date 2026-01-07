@@ -1,4 +1,4 @@
-# Manual de Uso - MiniTorch Framework
+# Manual de Uso - TenMinaTorc
 
 **Framework Completo para Deep Learning, Reinforcement Learning y Modelos Relacionales**
 
@@ -35,29 +35,29 @@ MiniTorch Framework es un framework completo construido sobre **MiniTorch Lite**
 
 ## Instalación
 
-### 1. Instalar MiniTorch Lite
+### 1. Instalar TenMINATorch Lite
 
 ```bash
 # Desde el ZIP
-unzip minitorch_lite.zip
-cd minitorch_lite
+unzip TenMINATorch.zip
+cd TenMINATorch
 pip install -e .
 
 # O añadir al path de Python
 import sys
-sys.path.insert(0, '/ruta/a/minitorch_lite')
+sys.path.insert(0, '/ruta/a/TenMINATorch')
 ```
 
 ### 2. Instalar el Framework
 
 ```bash
 # Extraer el framework
-unzip minitorch_framework.zip
-cd minitorch_framework
+unzip TenMinaTorc.zip
+cd TenMinaTorc
 
 # Añadir al path
 import sys
-sys.path.insert(0, '/ruta/a/minitorch_framework')
+sys.path.insert(0, '/ruta/a/TenMinaTorc')
 ```
 
 ### 3. Dependencias Opcionales
@@ -97,7 +97,7 @@ minitorch_framework/
 ```python
 import sys
 sys.path.insert(0, '/home/ubuntu')
-sys.path.insert(0, '/home/ubuntu/minitorch_framework')
+sys.path.insert(0, '/home/ubuntu/TenMinaTorc')
 
 from minitorch_lite import Tensor, Adam
 from models.transformer_rlm import TransformerRLM
@@ -466,7 +466,7 @@ pipeline.export_model(format='numpy')
 ### Exportar
 
 ```python
-from minitorch_lite import ModelExporter
+from TenMINATorch import ModelExporter
 
 exporter = ModelExporter()
 
@@ -501,7 +501,7 @@ model.load_state_dict(weights)
 **Solución**: Usar backend alternativo
 
 ```python
-from minitorch_lite import set_backend
+from TenMINATorch import set_backend
 
 # Cambiar a Numba
 set_backend('numba')
