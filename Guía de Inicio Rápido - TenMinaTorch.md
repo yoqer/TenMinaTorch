@@ -1,4 +1,4 @@
-# Guía de Inicio Rápido - MiniTorch Framework
+# Guía de Inicio Rápido - TerMinaTorc Framework
 
 Esta guía te ayudará a entrenar tu primer modelo en **menos de 5 minutos**.
 
@@ -8,8 +8,8 @@ Esta guía te ayudará a entrenar tu primer modelo en **menos de 5 minutos**.
 
 ```bash
 # Extraer archivos
-unzip minitorch_lite.zip
-unzip minitorch_framework.zip
+unzip TenMinaTorch_lite.zip
+unzip TenMinatorc_framework.zip
 
 # Añadir al path de Python (en tu script)
 import sys
