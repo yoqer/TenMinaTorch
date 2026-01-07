@@ -137,7 +137,7 @@ for epoch in range(10):
 
 ### Exportar/Importar Pesos
 ```python
-import minitorch_lite as mtl
+import TenMINATorch as mtl
 
 exporter = mtl.ModelExporter()
 
@@ -172,7 +172,7 @@ model.load_state_dict(weights)
 
 ### Keras/TensorFlow
 ```python
-from minitorch_lite import KerasIntegration
+from TenMINATorch import KerasIntegration
 
 # Exportar pesos para Keras
 KerasIntegration.save_for_keras(weights, 'model.npz')
@@ -183,7 +183,7 @@ keras_model = KerasIntegration.create_keras_model_from_config(config)
 
 ### PyTorch
 ```python
-from minitorch_lite import PyTorchIntegration
+from TenMINATorch import PyTorchIntegration
 
 # Convertir tensor
 torch_tensor = PyTorchIntegration.to_pytorch_tensor(numpy_array)
@@ -194,7 +194,7 @@ PyTorchIntegration.save_for_pytorch(weights, 'model.pt')
 
 ### JAX
 ```python
-from minitorch_lite import JAXIntegration
+from TenMINATorch import JAXIntegration
 
 # Convertir a array JAX
 jax_array = JAXIntegration.to_jax_array(numpy_array)
