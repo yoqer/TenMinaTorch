@@ -8,13 +8,13 @@ Esta guía te ayudará a entrenar tu primer modelo en **menos de 5 minutos**.
 
 ```bash
 # Extraer archivos
-unzip TenMinaTorch_lite.zip
-unzip TenMinatorc_framework.zip
+unzip TenMINATorch.zip
+unzip TenMinaTorc.zip
 
 # Añadir al path de Python (en tu script)
 import sys
-sys.path.insert(0, '/ruta/a/minitorch_lite')
-sys.path.insert(0, '/ruta/a/minitorch_framework')
+sys.path.insert(0, '/ruta/a/TenMINATorch')
+sys.path.insert(0, '/ruta/a/TenMinaTorc')
 ```
 
 ---
@@ -22,7 +22,7 @@ sys.path.insert(0, '/ruta/a/minitorch_framework')
 ## Paso 2: Entrenar Modelo Completo
 
 ```bash
-cd minitorch_framework
+cd TenMinaTorc
 python examples/train_complete_model.py --epochs 10 --generate
 ```
 
@@ -96,7 +96,7 @@ Pipeline Completo Finalizado
 ```python
 import sys
 sys.path.insert(0, '/home/ubuntu')
-sys.path.insert(0, '/home/ubuntu/minitorch_framework')
+sys.path.insert(0, '/home/ubuntu/TenMinaTorc')
 
 from examples.train_complete_model import CompleteTrainingPipeline
 import json
@@ -153,7 +153,7 @@ python examples/train_complete_model.py --config config.json --epochs 5
 ```python
 import sys
 sys.path.insert(0, '/home/ubuntu')
-sys.path.insert(0, '/home/ubuntu/minitorch_framework')
+sys.path.insert(0, '/home/ubuntu/TenMinaTorc')
 
 from rl.reinforcement_learning import PPOAgent
 import numpy as np
@@ -206,7 +206,7 @@ print("Modelo guardado: ppo_model.pkl")
 ```python
 import sys
 sys.path.insert(0, '/home/ubuntu')
-sys.path.insert(0, '/home/ubuntu/minitorch_framework')
+sys.path.insert(0, '/home/ubuntu/TenMinaTorc')
 
 from models.transformer_rlm import TransformerRLM
 from vllm.relational_vllm import vLLM
@@ -284,8 +284,8 @@ controller = create_training_controller(
 ```python
 # Asegúrate de añadir las rutas correctas
 import sys
-sys.path.insert(0, '/ruta/correcta/a/minitorch_lite')
-sys.path.insert(0, '/ruta/correcta/a/minitorch_framework')
+sys.path.insert(0, '/ruta/correcta/a/TenMINATorch')
+sys.path.insert(0, '/ruta/correcta/a/TenMinaTorc')
 ```
 
 ### Problema: Out of Memory
