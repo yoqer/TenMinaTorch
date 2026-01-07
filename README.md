@@ -1,4 +1,4 @@
-# MiniTorch Lite
+# TenMinaTorch Lite
 
 **Lightweight Deep Learning Library with Multi-Backend Support**
 
