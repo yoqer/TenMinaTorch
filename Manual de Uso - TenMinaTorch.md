@@ -75,7 +75,7 @@ pip install tensorflow torch
 ## Arquitectura del Framework
 
 ```
-minitorch_framework/
+TenMinaTorc/
 ├── models/
 │   └── transformer_rlm.py      # Transformer RLM
 ├── rl/
@@ -99,7 +99,7 @@ import sys
 sys.path.insert(0, '/home/ubuntu')
 sys.path.insert(0, '/home/ubuntu/TenMinaTorc')
 
-from minitorch_lite import Tensor, Adam
+from TenMINATorch import Tensor, Adam
 from models.transformer_rlm import TransformerRLM
 
 # Crear modelo
@@ -360,7 +360,7 @@ for i, result in enumerate(results):
 ### Uso Básico
 
 ```python
-from minitorch_lite import create_training_controller
+from TenMINATorch import create_training_controller
 
 # Crear controlador
 controller = create_training_controller(
@@ -599,12 +599,12 @@ while True:
 Este framework proporciona todas las herramientas necesarias para entrenar modelos de deep learning de gran escala con control avanzado de entrenamiento y opciones de inferencia rápida.
 
 Para más información, consulta:
-- README.md de MiniTorch Lite
-- Código fuente en `/minitorch_framework/`
-- Ejemplos en `/minitorch_framework/examples/`
+- README.md de TenMINATorch Lite
+- Código fuente en `/TenMinaTorc/`
+- Ejemplos en `/TenMinaTorc/examples/`
 
 ---
 
-**Autor**: MiniTorch Framework Team  
+**Autor**: Terminator Team  
 **Versión**: 1.0.0  
 **Fecha**: 2026
