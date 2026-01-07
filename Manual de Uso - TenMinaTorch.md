@@ -23,7 +23,7 @@
 
 ## Introducción
 
-MiniTorch Framework es un framework completo construido sobre **MiniTorch Lite** que proporciona:
+TenMinaTorc Framework es un framework completo construido sobre **TenMINATorch Lite** que proporciona:
 
 - **Transformer RLM**: Arquitectura Transformer optimizada para Reinforcement Learning con hasta 8192 neuronas
 - **Reinforcement Learning**: Algoritmos Q-Learning (DQN) y PPO
