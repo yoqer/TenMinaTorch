@@ -27,19 +27,19 @@ Una librería de deep learning ligera y flexible con soporte para múltiples bac
 
 ### Instalación básica (solo NumPy)
 ```bash
-pip install minitorch-lite
+pip install TenMINATorch
 ```
 
 ### Instalación con backends adicionales
 ```bash
 # Con Numba (aceleración JIT)
-pip install minitorch-lite[numba]
+pip install TenMINATorch[numba]
 
 # Con JAX (autograd avanzado)
-pip install minitorch-lite[jax]
+pip install TenMINATorch[jax]
 
 # Con todas las dependencias opcionales
-pip install minitorch-lite[all]
+pip install TenMINATorch[all]
 ```
 
 ### Instalación desde código fuente
@@ -52,15 +52,15 @@ pip install -e .
 ### Uso sin PyPI (instalación local)
 ```python
 import sys
-sys.path.insert(0, '/ruta/a/minitorch_lite')
-import minitorch_lite as mtl
+sys.path.insert(0, '/ruta/a/TenMINATorch')
+import TenMINATorch as mtl
 ```
 
 ## Uso Básico
 
 ### Crear Tensores y Operaciones
 ```python
-import minitorch_lite as mtl
+import TenMINATorch as mtl
 
 # Crear tensores
 x = mtl.Tensor([[1, 2], [3, 4]], requires_grad=True)
@@ -76,7 +76,7 @@ print(x.grad)  # Gradientes
 
 ### Cambiar Backend
 ```python
-import minitorch_lite as mtl
+import TenMINATorch as mtl
 
 # Ver backends disponibles
 mtl.print_backend_info()
@@ -87,7 +87,7 @@ mtl.set_backend('numba')
 
 ### Control de Entrenamiento
 ```python
-import minitorch_lite as mtl
+import TenMINATorch as mtl
 
 # Crear controlador con Early Stopping [NEW]
 controller = mtl.create_training_controller(
@@ -109,7 +109,7 @@ controller.save_checkpoint(model.state_dict())
 
 ### Red Neuronal Simple
 ```python
-import minitorch_lite as mtl
+import TenMINATorch as mtl
 
 # Definir modelo
 model = mtl.Sequential(
@@ -206,7 +206,7 @@ fast_func = JAXIntegration.jit_compile(my_function)
 ## Estructura del Proyecto
 
 ```
-minitorch_lite/
+TenMINATorch/
 ├── __init__.py       # Exportaciones principales
 ├── tensor.py         # Clase Tensor
 ├── autograd.py       # Motor de diferenciación automática
