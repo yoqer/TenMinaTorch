@@ -30,7 +30,7 @@ python examples/train_complete_model.py --epochs 10 --generate
 
 ```
 ======================================================================
-MiniTorch Framework - Pipeline de Entrenamiento Completo
+TenMinaTorc Framework - Pipeline de Entrenamiento Completo
 ======================================================================
 
 [1/5] Inicializando Transformer RLM...
@@ -73,7 +73,7 @@ Pérdida promedio de la época: 0.187654
 Entrenamiento Completado
 ======================================================================
 
-[MiniTorch Lite] Checkpoint guardado: ./checkpoints/model_final.pkl
+[TenMINATorch Lite] Checkpoint guardado: ./checkpoints/model_final.pkl
   - Iteración: 310
   - Mejor pérdida: 0.123456
   - Razón de parada: Máximo de iteraciones alcanzado (69)
@@ -246,7 +246,7 @@ for i, result in enumerate(results):
 Detiene el entrenamiento tras **12 iteraciones** sin mejora:
 
 ```python
-from minitorch_lite import create_training_controller
+from TenMINATorch import create_training_controller
 
 controller = create_training_controller(
     early_stop=True,
@@ -310,7 +310,7 @@ Reduce el tamaño del modelo en `config.json`:
 Usa backend acelerado:
 
 ```python
-from minitorch_lite import set_backend
+from TenMINATorch import set_backend
 set_backend('numba')  # Requiere: pip install numba
 ```
 
