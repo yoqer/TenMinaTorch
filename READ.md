@@ -1,2 +1,4 @@
 # TenMinaTorch
-TenMinaTorch es una librería completa capaz de entrenar por si misma el Gradiente para perfeccionar la Interacción y el Fine-tuning de Modelos, Grandes o Pequeños, con capacidad de Cuantizar los modelos para todos los dispositivos y capacidades de memorias.
+TenMinaTorch es una librería completa capaz de entrenar por si misma el Gradiente para perfeccionar la Interacción y el Fine-tuning de Modelos, Grandes o Pequeños, con capacidad de Cuantizar los modelos Nativamente para todos los dispositivos y capacidades de memorias de uso comun.
+
+
