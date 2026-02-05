@@ -219,7 +219,13 @@ TenMINATorch/
 └── README.md         # Documentación
 ```
 
-## Subida a PyPI
+# Puede actualizar y perfeccionar la libreria.
+
+Los cambios seran valorados, es una librería general Open Source sin restricciones, si desea compartir las mejores o especializaciones, puedes ser referenciadas como ramas, como las de AlIAmAlIA; o añadidas mediante Pull Request.
+
+
+
+## Para Subida a PyPI
 
 1. **Crear cuenta en PyPI**: https://pypi.org/account/register/
 
