@@ -219,7 +219,7 @@ TenMINATorch/
 └── README.md         # Documentación
 ```
 
-## Puede actualizar y perfeccionar la libreria.
+## Puede actualizar y perfeccionar esta libreria especializandola.
 
 Los cambios seran valorados, es una librería de usos generales, Open Source sin restricciones, si desea compartir las mejoras o especializaciones, pueden ser referenciadas como ramas, como las de AlIAmAlIA; o ser añadidas colaborando mediante un Pull Request.
 
